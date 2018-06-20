@@ -28,7 +28,7 @@ public class h10O2 extends Applet {
 
     public void paint(Graphics g) {
         if (hoogstegetal > Integer.MIN_VALUE) {
-            g.drawString("het hooggste getal is: " + hoogstegetal, 50, 100);
+            g.drawString("het hoogste getal is: " + hoogstegetal, 50, 100);
             g.drawString("het kleinste getal is: " + kleinstegetal, 50, 115);
         }
     }
